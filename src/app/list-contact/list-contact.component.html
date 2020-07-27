@@ -1,0 +1,22 @@
+<div class="container "> 
+  <div class="liste">
+  <table class="table">
+    <tr>
+      <th>Nom</th>
+      <th>Prenom</th>
+      <th>Numéro Téléphone</th>
+      <th>Email</th>
+      <th>Supprimer</th>
+      <th>Modification</th>
+    </tr>
+    <tr *ngFor="let contact of contacts">
+      <td>{{contact.prenom}}</td>
+      <td> {{contact.nom}} </td>
+      <td>{{contact.numeroTel}}</td>
+      <td> {{contact.email}} </td>
+      <td><button class="btn btn-danger" (click)="deleteContact(contact,contact.id)">Supprimer</button></td>
+      <td><button class="btn btn-primary" routerLink="/modifier" (click)="modifierContact(contact)"> Modifier</button></td>
+    </tr>
+  </table>
+</div>
+</div>

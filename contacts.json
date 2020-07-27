@@ -1,0 +1,70 @@
+{
+  "contacts": [
+    {
+      "id": 6,
+      "prenom": "aminata",
+      "nom": "konte",
+      "numeroTel": "76322444",
+      "email": "aminata@gmail.com"
+    },
+    {
+      "id": 7,
+      "prenom": "amala",
+      "nom": "keita",
+      "numeroTel": "7895234",
+      "email": "abdoul@gmail.com"
+    },
+    {
+      "id": 8,
+      "prenom": "malik",
+      "nom": "konate",
+      "numeroTel": "4555555",
+      "email": "konate@gmail.com"
+    },
+    {
+      "id": 14,
+      "prenom": "nouridine",
+      "nom": "mahadou",
+      "numeroTel": "775221623",
+      "email": "nouridi@gmail.com"
+    },
+    {
+      "id": 15,
+      "prenom": "amadou",
+      "nom": "keita",
+      "numeroTel": "782147331",
+      "email": "amadouciss@hotmail.com"
+    },
+    {
+      "id": 16,
+      "prenom": "Dramane",
+      "nom": "Coulibaly",
+      "numeroTel": "7542963",
+      "email": "monsieurkonate007@gmail.com"
+    },
+    {
+      "id": 18,
+      "prenom": "Mahamane",
+      "nom": "Maiga",
+      "numeroTel": "47894984887",
+      "email": "papa@gmail.com"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
